@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python test_flights.py)",
+      "Bash(timeout 120 python -u test_flights.py)",
+      "Bash(python debug_url.py)",
+      "Bash(timeout 60 python debug_parser.py)",
+      "Bash(timeout 60 python debug_payload.py)",
+      "Bash(timeout 60 python debug_section4.py)",
+      "Bash(timeout 60 python debug_find_emirates.py)",
+      "Bash(timeout 60 python debug_payload2.py)",
+      "Bash(timeout 60 python debug_all_flights.py)",
+      "Bash(timeout 60 python debug_multiple_scripts.py)",
+      "Bash(python3)",
+      "Bash(timeout 60 python find_8206.py)",
+      "Bash(cp -r \"d:/Projetos/flights-list/fast_flights\" /tmp/arc-fly/)",
+      "Bash(cp \"d:/Projetos/flights-list/test_flights.py\" /tmp/arc-fly/)",
+      "Bash(cp \"d:/Projetos/flights-list/requirements.txt\" /tmp/arc-fly/)",
+      "Bash(cp \"d:/Projetos/flights-list/README.md\" /tmp/arc-fly/)"
+    ]
+  }
+}
